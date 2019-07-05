@@ -1,0 +1,192 @@
+/*폰트*/
+@font-face { font-family: 'BMJUA'; src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_one@1.0/BMJUA.woff') format('woff'); font-weight: normal; font-style: normal; }
+body{ font-family: 'BMJUA';}
+html,body{
+    background : white;
+}
+/*최상단 배너*/
+header .row>div:nth-child(1)>a {
+    display: block;
+    width:200px;
+    height: 55px;
+    background: url(https://raw.githubusercontent.com/yongkko/tgd/master/dgd_logo.png) no-repeat;
+}
+
+/* 공지 숨기기 버튼 */
+#article-list #article-option-area> #article-option-area-toggle-btn {
+    background: #fbddc0;
+    width: 34px;
+    height: 34px;
+    border: 0px solid;
+    transition: 0.2s ease 0s;
+    line-height: inherit;
+}
+#article-list #article-option-area {
+    right: 14px;
+    top: -35px;
+}
+
+/*배경*/
+body {
+
+    height: auto !important;
+    background: center/100% url(https://github.com/joking7898/DGU_3rd/blob/master/2323.jpg?raw=true) fixed; 
+	
+}
+
+/* 상단 스트리머 인포창*/
+#board-info {
+    margin: 0;
+    height: auto;
+    background: white;
+    margin-bottom: 2.5em;
+	border: 2px solid #f22477;
+	border-radius: 5px 5px 5px 5px;
+}
+
+/* 게시글클릭후 볼때 테두리*/
+#article-content-wrapper {
+	padding: 0.3em;
+	background: #ffffff;
+	border: 2px solid #f22477;
+	border-radius: 5px 5px 5px 5px;
+	margin-bottom: 2.0em;
+}
+
+#article-list{
+padding: 0.3em;
+	background: #ffffff;
+	border: 2px solid #f22477;
+	border-radius: 5px 5px 5px 5px;
+	margin-bottom: 2.0em;
+}
+
+header .row>div:nth-child(1)>a>img{
+    display:none;
+}
+
+header #header-bar>.row {
+    padding-top: 0.3em;
+    padding-bottom: 0.3em;
+    background: #fff;
+    border: 4px solid #f5e5f5;
+    padding: 10px 0px 5px 0;
+}
+header #header-bar #header-top-notice{
+    text-align: left;
+}
+
+header #right-search-form>input[type=text]{
+    border: 2px solid #f5e5f5;
+}
+
+/* 글 리스트*/
+#article-list #article-list-category {
+        border-top: 2px solid #330033;
+        background: #f5e5f5;
+}
+
+#main .menu-wrapper>.header,
+#article-list>.article-list-row>.item>.list-header>span,
+header #header-bar #header-top-notice strong.notice-badge
+{
+    background: #330033; 
+}
+
+header #right-search-form>#right-search-btn,
+#article-list>.article-list-row>.item>.list-title>small.comment-count
+{
+    color: #330033; 
+}
+
+#article-list>.article-list-row:hover,
+#main .menu-wrapper>a:hover{
+    background: #f5e5f5;
+}
+
+#board-info #viewers-area #viewers::before{
+    content:'이상득과  ';
+    cursor: text;
+}
+#board-info #viewers-area #viewers::after{
+    content:'명의 고독한 미식가들. ';
+    cursor: text;
+}
+
+#article-list>.article-list-row.notice {
+    background-color: #f5e5f5;
+}
+
+#article-list>.article-list-row:first-of-type {
+    border-top: 2px solid #330033;
+}
+
+
+.pagination>.active>a, .pagination>.active>a:focus, .pagination>.active>a:hover, .pagination>.active>span, .pagination>.active>span:focus, .pagination>.active>span:hover {
+    background-color: #330033;
+    border-color: #330033;
+}
+
+/*게시글 추가부분*/
+#article-list>.article-list-row {
+	border: none;
+	transition: 0.2s;
+}
+
+#article-list>.article-list-row:hover,
+#article-list>.article-list-row:focus {
+	background-color: #f5e5f5;
+	transform: scale(1.01);
+	transition: 0.2s;
+}
+
+@keyframes binglebingle { from { transform: rotate(0deg); } to { transform: rotate(360deg); } }
+span.a-badge i.fa.fa-star {
+animation: binglebingle 4s infinite;
+}
+/*끝*/
+
+
+#comment-write-form-area .fr-toolbar{
+    border-top: 5px solid #330033; 
+}
+
+#article-content-wrapper>.header{
+    border-top: 2px solid #330033; 
+    background: #f5e5f5;
+}
+#article-content-wrapper>.footer{
+    background: #f5e5f5;
+}
+#article-reply-area #reply-real-area .reply > .reply-header,
+#article-reply-area #reply-best-area .reply>.reply-header {
+    background: #f5e5f5;   
+}
+/* 메뉴부분 */
+#main .menu-wrapper {
+    border: transparent;
+    border-radius: 5px 5px 0 0;
+    border-top: none !important;
+}
+#main .menu-wrapper>.header {
+    background: #f22477;
+    border-radius: 5px 5px 5px 5px;
+}
+#main .menu-wrapper .spacer {
+    background: none;
+}
+
+#main #main-content>div.frame {
+    border-top: 5px solid #f22477;
+    border: 2px solid #f22477;
+}
+
+
+#main #main-content>div.frame,
+#article-list>.article-list-row{
+border:none;
+}
+
+#article-list>.article-list-row:hover>.item>.list-header.v0>span {
+    display:none;
+}
